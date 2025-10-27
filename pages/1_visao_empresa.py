@@ -66,14 +66,14 @@ def padronizar_colunas (df1):
                                         # FUNÇÃO DE CARREGAMENTO E LIMPEZA COM CACHE
 @st.cache_data
 def carregar_e_limpar_dados():
-        """
+    """
     Função que carrega, limpa e padroniza os dados do arquivo csv principal, guardando as ações no cache do streamlit
     para otimizar o carregamento da página.
-
+    
     1 - Recebe um dataset
     2 - aplica as funções de limpeza e padronização
     3 - retorna o dataset limpo e padronizado e armazena em cache
-
+    
     Entrada: dataframe original
     Saída: dataframe limpo
     """
