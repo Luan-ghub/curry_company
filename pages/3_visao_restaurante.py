@@ -285,10 +285,3 @@ with st.container():
     st.header("Tempo Médio por Cidade e Tipo de Tráfego")
     fig = meantime_by_citytrafic (df1)
     st.plotly_chart(fig, use_container_width=True)
-
-
-
-
-
-
-    

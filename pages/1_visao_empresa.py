@@ -287,4 +287,3 @@ with tab_tatica:
 with tab_geografica:
     st.header("Localização Central por Cidade e Tráfego")
     map (df1)
-    
