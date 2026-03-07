@@ -1,5 +1,7 @@
 # Curry Company - Dashboard de Operações e Logística
-
+---
+[https://currycompany-project.streamlit.app/]
+---
 ## 1. O Problema de Negócio
 
 **O que é a Curry Company?**
